@@ -1,7 +1,7 @@
 const botao = document.querySelector('.theme-button');
 const conteudo = document.querySelector('.container');
 
-const audio = new Audio('https://api-v6.soundbuttons.com/media/sounds/1745310609-notification_o14egLP.mp39');
+const audio = new Audio('https://api-v6.soundbuttons.com/media/sounds/1745310609-notification_o14egLP.mp3');
 
 botao.onclick = () => {
   conteudo.classList.toggle('dark');
